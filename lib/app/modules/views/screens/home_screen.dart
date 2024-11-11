@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:mppl_perpustakaan/constant/constants.dart';
+import 'package:mppl_perpustakaan/app/utils/constants.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
 
   Widget gapContentVertical({required double gap}){
     return SizedBox(

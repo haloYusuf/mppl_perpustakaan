@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class BorrowPage extends StatelessWidget {
-  const BorrowPage({super.key});
+class BorrowScreen extends StatelessWidget {
+  const BorrowScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

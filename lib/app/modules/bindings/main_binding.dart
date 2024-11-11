@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:mppl_perpustakaan/controllers/screens/main_controller.dart';
+import '../controllers/pages/main_controller.dart';
 
 class MainBinding extends Bindings{
   @override

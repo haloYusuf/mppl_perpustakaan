@@ -1,22 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mppl_perpustakaan/constant/constants.dart';
-import 'package:mppl_perpustakaan/controllers/screens/main_controller.dart';
+import 'package:mppl_perpustakaan/app/utils/constants.dart';
+import '../../controllers/pages/main_controller.dart';
+import '../screens/borrow_screen.dart';
+import '../screens/home_screen.dart';
+import '../screens/profile_screen.dart';
 
-import '../pages/borrow_page.dart';
-import '../pages/home_page.dart';
-import '../pages/profile_page.dart';
-
-class MainScreen extends StatelessWidget {
-  const MainScreen({super.key});
+class MainPage extends StatelessWidget {
+  const MainPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     final MainController mainController = Get.find();
     final listPage = [
-      const HomePage(),
-      const BorrowPage(),
-      const ProfilePage(),
+      const HomeScreen(),
+      const BorrowScreen(),
+      const ProfileScreen(),
     ];
 
     return Scaffold(

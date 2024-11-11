@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mppl_perpustakaan/routes/route_name.dart';
-import 'package:mppl_perpustakaan/routes/route_page.dart';
+import 'package:mppl_perpustakaan/app/routes/route_name.dart';
+import 'package:mppl_perpustakaan/app/routes/route_page.dart';
 
-import 'constant/constants.dart';
+import 'app/utils/constants.dart';
 
 void main() {
   runApp(const MyApp());
